@@ -1,0 +1,153 @@
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zyvera RP - موقع السيرفر</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Tajawal',sans-serif;margin:0;background:#111;color:#fff;}
+header{display:flex;justify-content:space-between;align-items:center;padding:15px 5%;background:rgba(0,0,0,.85);position:fixed;width:100%;top:0;z-index:100;border-bottom:1px solid #333;}
+header .logo{color:#00d4ff;font-weight:bold;font-size:1.5rem;}
+nav ul{list-style:none;display:flex;gap:20px;}
+nav a{color:#ccc;text-decoration:none;transition:.2s;}
+nav a:hover{color:#00d4ff;}
+.btn{padding:8px 18px;background:linear-gradient(135deg,#ff416c,#ff4b2b);border:none;border-radius:6px;color:#fff;font-weight:bold;cursor:pointer;}
+.section{display:none;padding:120px 20px 50px;max-width:900px;margin:auto;}
+.section.active{display:block;}
+h1,h2{color:#00d4ff;margin-bottom:15px;}
+.card{background:rgba(0,0,0,.75);padding:20px;border-radius:12px;border:1px solid #333;line-height:1.8;}
+input,textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #444;background:#222;color:#fff;margin-bottom:12px;}
+button.submit-btn{width:100%;padding:12px;background:#00d4ff;border:none;border-radius:6px;font-weight:bold;color:#000;cursor:pointer;}
+button.submit-btn:hover{background:#00a3cc;}
+.success{display:none;color:#4ade80;text-align:center;margin-top:10px;}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Zyvera RP</div>
+<nav>
+<ul>
+<li><a href="#" onclick="showSection('home')">الرئيسية</a></li>
+<li><a href="#" onclick="showSection('rules')">القوانين</a></li>
+<li><a href="#" onclick="showSection('updates')">التحديثات</a></li>
+<li><a href="#" onclick="showSection('register')">التسجيل</a></li>
+</ul>
+</nav>
+<button class="btn" onclick="showSection('register')">تسجيل</button>
+</header>
+
+<!-- الرئيسية -->
+<section id="home" class="section active">
+<div class="card">
+<h1>مرحباً بك في Zyvera RP</h1>
+<p>انضم إلى أفضل سيرفر حياة واقعية على روبلوكس. عالمك، قوانينك، حياتك!</p>
+</div>
+</section>
+
+<!-- القوانين -->
+<section id="rules" class="section">
+<div class="card">
+<h2>📜 القوانين الرسمية لسيرفر Zyvera RP</h2>
+<p>🟥 أولاً: القوانين العامة<br>
+احترام جميع اللاعبين إلزامي.<br>
+يمنع السب، الشتم، التهديد، أو الاستفزاز.<br>
+يمنع نشر الإعلانات أو الروابط بدون إذن الإدارة.<br>
+يمنع انتحال شخصية الإدارة أو الجهات الرسمية.<br>
+يمنع استغلال الثغرات أو محاولة تخريب السيرفر.<br>
+يمنع إثارة الفتن أو المشاكل داخل السيرفر.<br>
+يمنع مشاركة معلومات شخصية لأي لاعب.<br><br>
+
+🟦 ثانياً: قوانين الرول بلاي (RP)<br>
+✅ البقاء داخل الشخصية.<br>
+❌ الممنوعات: Fail RP, Power Gaming, Meta Gaming, Fear RP, RDM, VDM, Combat Logging, Force RP.<br><br>
+
+🟨 ثالثاً: قوانين الجرائم<br>
+وجود سبب RP قبل أي جريمة، يمنع القتل أو الخطف العشوائي، Crime Spam، سرقة اللاعبين الجدد.<br><br>
+
+🟩 رابعاً: قوانين الشرطة والجهات الرسمية<br>
+الالتزام بالرول بلاي الواقعي، منع إساءة استخدام الصلاحيات، إطلاق النار فقط بسبب RP.<br><br>
+
+🚗 خامساً: قوانين القيادة<br>
+منع التهور والدعس العشوائي، الالتزام بالسرعة الواقعية.<br><br>
+
+💬 سادساً: قوانين الدردشة<br>
+ممنوع السب، السبام، نشر محتوى غير لائق.<br><br>
+
+🧠 سابعاً: استغلال الثغرات<br>
+ممنوع الهاكات، السكربتات، التلاعب بالأنظمة، العقوبة غالباً: باند دائم.<br><br>
+
+👑 ثامناً: قوانين الإدارة<br>
+قرار الإدارة نهائي، يمنع طلب الرتب.<br><br>
+
+⚖️ تاسعاً: نظام العقوبات<br>
+بسيطة: تحذير — متوسطة: كتم — قوية: باند مؤقت — خطيرة: باند دائم.<br><br>
+
+✅ بدخولك السيرفر فأنت توافق على القوانين.</p>
+</div>
+</section>
+
+<!-- التحديثات -->
+<section id="updates" class="section">
+<div class="card">
+<h2>📢 آخر التحديثات في Zyvera RP</h2>
+<ul>
+<li>25 فبراير 2026: إضافة نموذج تسجيل جديد</li>
+<li>24 فبراير 2026: تحديث القوانين</li>
+<li>23 فبراير 2026: تحسين أداء السيرفر</li>
+</ul>
+</div>
+</section>
+
+<!-- التسجيل -->
+<section id="register" class="section">
+<div class="card">
+<h2>📝 التسجيل في Zyvera RP</h2>
+<form id="registerForm">
+<input type="text" id="name" placeholder="اسمك الكامل" required>
+<input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+<input type="text" id="discord" placeholder="يوزر ديسكورد" required>
+<input type="text" id="roblox" placeholder="اسم حساب روبلوكس" required>
+<input type="number" id="age" placeholder="عمرك الحقيقي" required>
+<div style="margin:10px 0;font-size:0.9rem;"><input type="checkbox" id="agree" required> أوافق على القوانين</div>
+<button type="submit" class="submit-btn">إرسال التسجيل</button>
+<div class="success" id="successMsg">✅ تم إرسال طلبك بنجاح!</div>
+</form>
+</div>
+</section>
+
+<script>
+function showSection(id){
+document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+document.getElementById(id).classList.add('active');
+window.scrollTo({top:0,behavior:'smooth'});
+}
+
+const webhookURL = "YOUR_WEBHOOK_URL"; // ضع رابط Webhook كامل هنا
+document.getElementById('registerForm').addEventListener('submit', async function(e){
+e.preventDefault();
+if(!document.getElementById('agree').checked) return;
+const data = {
+content:`📥 طلب تسجيل جديد
+👤 الاسم: ${document.getElementById('name').value}
+📧 البريد: ${document.getElementById('email').value}
+💬 ديسكورد: ${document.getElementById('discord').value}
+🎮 روبلوكس: ${document.getElementById('roblox').value}
+🎂 العمر: ${document.getElementById('age').value}`
+};
+try{
+await fetch(webhookURL,{
+method:'POST',
+headers:{'Content-Type':'application/json'},
+body:JSON.stringify(data)
+});
+document.getElementById('successMsg').style.display='block';
+this.reset();
+}catch{
+alert("فشل الإرسال");
+}
+});
+</script>
+
+</body>
+</html>
